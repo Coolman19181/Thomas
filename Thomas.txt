@@ -3,7 +3,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
 		RequestCommand:InvokeServer(";invisible me")
 		
-wait(0.2)
+wait(0.3)
 
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand
@@ -13,7 +13,7 @@ wait(0.2)
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand
 	
-		RequestCommand:InvokeServer(";size me 2")
+		RequestCommand:InvokeServer(";size me 3")
 
 
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
